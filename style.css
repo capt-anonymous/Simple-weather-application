@@ -1,0 +1,44 @@
+
+    h1{
+      
+      font-size: 40px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1f0b3f 0%, #3e1b73 50%, #1a5c6d 100%);
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+    }
+    .weather-box {
+  background-image: url(unicorn.png);
+  /* The fixes for the line: */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  
+  padding: 50px;
+  border-radius: 12px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      margin: 10px;
+      width: 70%;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #ff9800;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e68900;
+    }
